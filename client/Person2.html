@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styling2.css">
+    <link rel="shortcut icon" type="image/jpg" href="whatsapp.png">
+    <title>Client 2 BAWACHAT</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="header">
+            <div class="avatar">
+                <img src="pictures/Shehroz.jpg" alt="">
+            </div>
+            <div class="chat-header-right">
+                <img src="circle-notch-solid.svg" alt="">
+                <img src="chat.svg" alt="">
+                <img src="more.svg" alt="">
+            </div>
+        </div>
+        <div class="sidebar-search">
+            <div class="sidebar-search-container">
+                <img src="search-solid.svg" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="sidebar-chats">
+            <div class="sidebar-chat">
+                <div class="chat-avatar">
+                    <img src="pictures/husnain.png" alt="">
+                </div>
+                <div class="chat-info">
+                    <h4>Husnain Gujjar</h4>
+                    <p>Last Message</p>
+                </div>
+                <div class="time">
+                    <p>3:44 pm</p>
+                </div>
+            </div>
+            <div class="sidebar-chat">
+                <div class="chat-avatar">
+                    <img src="pictures/Zuhaib.png" alt="">
+                </div>
+                <div class="chat-info">
+                    <h4>Zuhaib Bro ²⁰</h4>
+                    <p>Last Message</p>
+                </div>
+                <div class="time">
+                    <p>9:02 am</p>
+                </div>
+            </div>
+            <div class="sidebar-chat">
+                <div class="chat-avatar">
+                    <img src="pictures/Sharjeel.jpg" alt="">
+                </div>
+                <div class="chat-info">
+                    <h4>Sharjeel Bro ¹⁸</h4>
+                    <p>Last Message</p>
+                </div>
+                <div class="time">
+                    <p>8:35 pm</p>
+                </div>
+            </div>
+            <div class="sidebar-chat">
+                <div class="chat-avatar">
+                    <img src="pictures/Wadaa bai.jpg" alt="">
+                </div>
+                <div class="chat-info">
+                    <h4>Soban Rafiq</h4>
+                    <p>Last Message</p>
+                </div>
+                <div class="time">
+                    <p>4:18 am</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="message-container">
+        <div class="header">
+            <div class="chat-title">
+                <div class="avatar">
+                    <img src="pictures/Mustajab.jpg" alt="">
+                </div>
+                <div class="message-header-content">
+                    <h4>Mustajab Bajwa</h4>
+                    <p>online</p>
+                </div>
+            </div>
+            <div class="chat-header-right">
+                <img src="search-solid.svg" alt="">
+                <img src="more.svg" alt="">
+            </div>
+        </div>
+        <div class="message-content">
+            <p class="chat-message">Missed Voice Call <span class="chat-timestamp">4.51 pm</span></p>
+            <p class="chat-message">bawa <span class="chat-timestamp">4.51 pm</span></p>
+            <p class="chat-message chat-sent">hangi, suna kia hal hai <span class="chat-timestamp">4.52 pm</span></p>
+            <p class="chat-message">shukar Allah ka tusi sunao <span class="chat-timestamp">4.53 pm</span></p>
+            <p class="chat-message chat-sent">shukar hai, ki banya Supervisor da<span class="chat-timestamp">4.54 pm</span></p>
+            <p class="chat-message">Yar Lab reha wah haly tera ki banya <span class="chat-timestamp">4.55 pm</span></p>
+            <p class="chat-message chat-sent">bawa 5 August last date hai jaldi kar le. <span class="chat-timestamp">4.56 pm</span></p>
+            <p class="chat-message chat-sent">bad me masla bane ga <span class="chat-timestamp">4.57 pm</span></p>
+            <p class="chat-message">chal karta hu or milta tu tujhy Monday ko <span class="chat-timestamp">5.00 pm</span></p>
+            <p class="chat-message chat-sent">ok kr <span class="chat-timestamp">5.02 pm</span></p>
+            <p class="chat-message">ok <span class="chat-timestamp">5.03 pm</span></p>
+          
+            
+                <input type="text" id="room-input" placeholder="Enter Room Name" />
+                <button id="create-room-button">Create Room</button>
+                <button id="join-room-button">Join Room</button>
+                <button id="leave-room-button" style="display: none">Leave Room</button>
+                <button id="leave-group-button" style="display: none">Leave Group</button>
+
+                <div id="chat-box" class="chat-box"></div>
+                <input type="text" id="message-input" />
+                <button id="send-button">Send</button>
+                <input type="file" id="image-input" />
+                <button id="send-image-button">Send Image</button>
+                <input type="file" id="file-input" />
+                <button id="send-file-button">Send File</button>
+                <input type="file" id="video-input" />
+                <button id="send-video-button">Send Video</button>
+        </div>
+        
+
+    </div>
+    <script src="Person2.js"></script>
+</body>
+</html>
+
+
