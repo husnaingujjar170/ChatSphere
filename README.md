@@ -1,11 +1,11 @@
 # ChatSphere
 
-ChatSphere is a WhatsApp clone that allows users to communicate through messaging, sharing files, and images within the same group. It is designed to demonstrate core chat functionalities like sending text messages, sharing images, and files across multiple clients connected to the same group or chat room.
+ChatSphere is a WhatsApp clone that allows users to communicate through messaging, sharing files and images within the same group. It is designed to demonstrate core chat functionalities like sending text messages, sharing images and files across multiple clients connected to the same group or chat room.
 
 ## Features
 
 - **Group Messaging**: Users can join the same group chat and exchange messages in real-time.
-- **File Sharing**: Send and receive various file types, including documents, PDFs, and more.
+- **File Sharing**: Send and receive various file types, including documents, PDFs and more.
 - **Image Sharing**: Seamlessly share images between clients in a group chat.
 - **Client Interface**: Includes two clients (Client 1 and Client 2) that simulate user interactions within the chat environment.
 - **Real-time Communication**: Messages and media are delivered instantly within the group.
@@ -40,12 +40,12 @@ ChatSphere is a WhatsApp clone that allows users to communicate through messagin
    ```
 
 4. **Client 1 and Client 2**  
-   You can simulate two different clients by opening two separate browser windows or tabs. Both clients can join the same group and start messaging, sending files, and sharing images.
+   You can simulate two different clients by opening two separate browser windows or tabs. Both clients can join the same group and start messaging, sending files and sharing images.
 
 ## Screenshots
 
 ### Client 1 Interface
-- A screenshot showing the chat interface of Client 1 with messages, file sharing, and image options.
+- A screenshot showing the chat interface of Client 1 with messages, file sharing and image options.
 ![Client 1 Interface](Pictures/Client1.png)
 
 ### Client 2 Interface
