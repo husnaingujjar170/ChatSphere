@@ -1,4 +1,4 @@
-# Bawa Chat Application
+# ChatSphere
 
 Bawa is a WhatsApp clone that allows users to communicate through messaging, sharing files, and images within the same group. It is designed to demonstrate core chat functionalities like sending text messages, sharing images, and files across multiple clients connected to the same group or chat room.
 
