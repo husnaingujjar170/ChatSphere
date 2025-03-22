@@ -24,7 +24,7 @@ Bawa is a WhatsApp clone that allows users to communicate through messaging, sha
 1. **Clone the Repository**  
    ```bash
    git clone <repository-url>
-   cd bawa-chat-application
+   cd ChatSphere
    ```
 
 2. **Install Dependencies**  
